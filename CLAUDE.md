@@ -3,8 +3,8 @@
 <p align="center"><img src="example/logo.png" width="300" alt="polaroid logo"></p>
 
 A [Bubble Tea](https://github.com/charmbracelet/bubbletea) v2 component that shows images on terminals
-supporting the [Kitty graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/)
-([kitty](https://sw.kovidgoyal.net/kitty/), [ghostty](https://ghostty.org/)). (Kitty, Ghostty currently)
+supporting the [Kitty graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/).
+Currently on ([kitty](https://sw.kovidgoyal.net/kitty/) and [ghostty](https://ghostty.org/)) are supported.
 Inspired by [textual-image](https://github.com/lnqs/textual-image).
 
 ## Usage
