@@ -15,6 +15,9 @@ jobs:
       - uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: typos
       - run: make test
       - run: gh release create "$GITHUB_REF_NAME" --generate-notes
         env:

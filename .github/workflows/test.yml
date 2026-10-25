@@ -13,4 +13,7 @@ jobs:
       - uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: typos
       - run: make test
